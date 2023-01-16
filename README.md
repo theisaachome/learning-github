@@ -7,7 +7,7 @@ $ git checkout -b (brance-name)
 
 # Example
 # Jira ticket number
-$ git checkout -b  eg-2012
+$ git checkout -b  eg-2000
 ```
 
 ### list all the branches and active one
@@ -23,6 +23,16 @@ $ git branch
 3. push local branch to remote
 
 ```sh
-$ git push -u origin/main eg-2012
+$ git push -u origin eg-2000
 
+```
+
+### Merging locally
+
+1. checkout master branch
+2. git pull
+3. merge to master
+
+```sh
+$ git merge  eg-2000 (branch to merge in)
 ```
