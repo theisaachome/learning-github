@@ -23,6 +23,6 @@ $ git branch
 3. push local branch to remote
 
 ```sh
-$ git push -u origin/main eg-2012
+$ git push -u origin  eg-2012
 
 ```
